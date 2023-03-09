@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemplo de saudação com animação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+      .balao {
+        position: relative;
+        display: inline-block;
+      }
+      .balao .icone {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        animation: animate__animated animate__bounceInUp;
+        animation-duration: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="balao">
+      <span class="icone animate__animated animate__tada animate__infinite">
+        <i class="far fa-grin"></i>
+      </span>
+      Oi Julio, bem-vindo de volta!
+    </h1>
+    <script src="https://kit.fontawesome.com/ABBB06D9-712F-4E92-BA18-D6865766907F.js" crossorigin="anonymous"></script>
+  </body>
+</html>
